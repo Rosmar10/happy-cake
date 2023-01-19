@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 
 function Home() {
     return (
-        <Container>
+        <Container className="cake">
             <h1 className="pt-5">
                 Bienvenido a <span className="fw-bold">Happy Cake</span>
             </h1>

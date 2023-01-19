@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -14,9 +15,9 @@ function App() {
       <CustomNavbar />
 
       <Routes>
-        <Route to="/" element={<Home />} />
-        <Route to="/contacto" element={<Contacto />} />
-        <Route to="*" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
     </BrowserRouter>
