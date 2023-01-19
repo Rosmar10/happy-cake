@@ -14,9 +14,9 @@ function App() {
       <CustomNavbar />
 
       <Routes>
-        <Route to="/" element={<Home />} />
-        <Route to="/contacto" element={<Contacto />} />
-        <Route to="*" element={<NotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
     </BrowserRouter>

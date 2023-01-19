@@ -13,4 +13,26 @@ code {
 }
 .bg-red {
     background-color: hsl(338, 100%, 48%);
-  }
+}
+
+.bg-red {
+    background-color: hsl(338, 100%, 48%);
+}
+
+.cake{
+    text-align: center;
+    padding: 1%;
+}
+
+.boton{
+    background: rgb(227, 26, 83);
+    color: aliceblue;
+    border-radius: 10%;
+    border: none;
+    padding: 10px;
+}
+
+.contacto{
+    margin-top: 7%;
+
+}

@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 function Contacto() {
     return (
-        <Container className="pt-5">
+        <Container className="contacto">
 
             <h1 className="mb-4 text-center">Cuéntanos, ¿En qué te podemos ayudar?</h1>
 
