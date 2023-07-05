@@ -13,10 +13,10 @@ export default function Navigation() {
                     <Nav className="float-left">
 
                         <Link className="text-white ms-3 text-decoration-none"
-                            href="/"> 🏠 Home
+                            to='/'> 🏠 Home
                         </Link>
                         <Link className="text-white ms-3 text-decoration-none"
-                            href="/Contacto"> 📔 Contacto
+                            to='/Contacto'> 📔 Contacto
                         </Link>
 
                     </Nav>
